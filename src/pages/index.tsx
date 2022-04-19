@@ -1,9 +1,13 @@
 import type { NextPage } from "next";
-import { memo, useState } from "react";
-import styles from "../styles/Home.module.css";
+import { Box, Flex } from "@chakra-ui/react";
 
 const Home: NextPage = () => {
-  return <div className={styles.container}>ここにコンテンツが入る</div>;
+  return (
+    <Flex>
+      <Box>Hello</Box>
+      <Box>🐱</Box>
+    </Flex>
+  );
 };
 
 export default Home;
