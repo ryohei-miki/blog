@@ -1,13 +1,8 @@
 import type { NextPage } from "next";
-import { Box, Flex } from "@chakra-ui/react";
+import { Header as GlobalHeader } from "src/components/Header";
 
 const Home: NextPage = () => {
-  return (
-    <Flex>
-      <Box>Hello</Box>
-      <Box>🐱</Box>
-    </Flex>
-  );
+  return <GlobalHeader />;
 };
 
 export default Home;
